@@ -1,2 +1,3 @@
 # SpeechWow
-SpeechWow project
+Speech Wow project for HPL project in Toastmasters
+
