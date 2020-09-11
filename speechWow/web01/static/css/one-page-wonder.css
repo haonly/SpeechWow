@@ -1,0 +1,263 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #445EFF !important;
+}
+
+header.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(/img/bg-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFD110;
+  padding-top: calc(5rem + 55px);
+}
+
+header.masthead .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .masthead-description {
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(13rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+  }
+  header.masthead .masthead-subheading {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+  header.masthead .masthead-description {
+    font-size: 1.2rem;
+  }
+}
+
+.bg-primary {
+  background-color: #FFD110 !important;
+}
+
+.btn-primary {
+  background-color: #FFD110;
+  border-color: #FFD110;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #dcb200 !important;
+  border-color: #dcb200 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 209, 16, 0.5);
+}
+
+.btn-secondary {
+  background-color: #445EFF;
+  border-color: #445EFF;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #1132ff !important;
+  border-color: #1132ff !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(68, 94, 255, 0.5);
+}
+
+.background_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.section-gap {
+  padding: 150px 0;
+}
+
+@media (max-width: 991px) {
+  .section-gap {
+    padding: 80px 0;
+  }
+}
+
+.option-area {
+  background-color: #FFD110;
+}
+
+.single-option {
+  background-color: #445EFF;
+  border-radius: 6px;
+  box-shadow: 0 12px 13px rgba(0, 0, 0, 0.16), 0 12px 13px rgba(0, 0, 0, 0.16);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  height: 600px;
+}
+
+.single-option .option-select {
+  padding: 20px 30px 40px;
+}
+
+@media (max-width: 1024px) {
+  .single-option .option-select {
+    padding: 20px 20px 40px;
+  }
+}
+
+.single-option .thumb {
+  position: relative;
+  width: 250px;
+}
+
+.single-option .meta-text {
+  padding: 60px 20px 40px;
+  font-size: 21px;
+}
+
+@media (max-width: 1024px) {
+  .single-option .meta-text {
+    padding: 60px 20px 40px;
+  }
+}
+
+.single-option .meta-text .dot {
+  height: 12px;
+  width: 12px;
+  background-color: #FFD110;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.single-option .meta-text .designation {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.pricing .card {
+  background-color: #445EFF;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-body hr {
+  background-color: white;
+}
+
+.pricing .card-body .card-description .card-discount {
+  color: #FFD110;
+  display: block;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.pricing .dot {
+  height: 12px;
+  width: 12px;
+  background-color: #FFD110;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}

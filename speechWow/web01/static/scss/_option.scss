@@ -1,0 +1,52 @@
+@import "variables.scss";
+//    Predefined
+.section-gap {
+    padding: 150px 0;
+    @media (max-width: 991px) {
+        padding: 80px 0;
+    }
+}
+
+//-------- End Feature Area css ----------/
+//--------- start Faculty Area -------------//
+.option-area {
+    background-color: $primary;
+}
+
+.single-option {
+    background-color: $secondary;
+    border-radius: 6px;
+    box-shadow: 0 12px 13px rgba(0,0,0,0.16), 0 12px 13px rgba(0,0,0,0.16);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    height: 600px;
+    .option-select{
+        padding: 20px 30px 40px;
+        @media (max-width: 1024px) {
+            padding: 20px 20px 40px;
+        }
+    }
+    .thumb {
+        position: relative;
+        width:250px;
+        
+    }
+    .meta-text {
+        padding: 60px 20px 40px;
+        @media (max-width: 1024px) {
+            padding: 60px 20px 40px;
+        }
+        font-size:21px;
+        .dot{
+            height: 12px;
+            width: 12px;
+            background-color: $primary;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        .designation {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        
+    }
+}

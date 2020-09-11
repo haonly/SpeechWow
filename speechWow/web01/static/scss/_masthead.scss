@@ -1,0 +1,47 @@
+@import '_variables';
+
+header.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(/img/bg-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color : $primary;
+    padding-top: calc(5rem + 55px);
+    .masthead-heading {
+      font-size: 4rem;
+    }
+    .masthead-subheading {
+      font-size: 2rem;
+      // padding-bottom: 2rem;
+    }
+    .masthead-description {
+      font-size: 1.2rem;
+      padding-bottom: 2rem;
+    }
+  .masthead-content {
+    z-index: 1;
+    position: relative;
+    
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(13rem + 55px);
+    padding-bottom: 10rem;
+    
+      .masthead-heading {
+        text-transform: uppercase;
+        font-size: 4rem;
+      }
+      .masthead-subheading {
+        text-transform: uppercase;
+        font-size: 2rem;
+      }
+      .masthead-description {
+        font-size: 1.2rem;
+      }
+    }
+}

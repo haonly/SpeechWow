@@ -18,6 +18,8 @@ from django.urls import path
 from django.conf.urls import url
 from django.views.generic import TemplateView
 
+
+
 app_name = 'web01'
 urlpatterns = [
     path('admin/', admin.site.urls),
